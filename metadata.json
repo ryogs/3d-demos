@@ -1,0 +1,5 @@
+{
+  "name": "The Void Sphere",
+  "description": "A simplified, high-performance 3D sphere explorer with procedural textures and minimal UI.",
+  "requestFramePermissions": []
+}
