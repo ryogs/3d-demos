@@ -27,3 +27,11 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // package.jsonにあったので追加
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  base: './', // ★これを必ず追加！「ドット」を入れるのがコツです
+})
